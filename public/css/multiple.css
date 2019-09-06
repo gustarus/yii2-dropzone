@@ -1,0 +1,46 @@
+.dropzone.dropzone-multiple {
+    width: 100%;
+    min-height: 210px;
+}
+
+.dropzone.dropzone-multiple .dz-message {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 210px;
+}
+
+.dropzone.dropzone-multiple .dz-message span {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.dropzone.dropzone-multiple .dz-preview {
+    width: 155px;
+    height: 210px;
+    margin: 20px 0 0 20px;
+}
+
+.dropzone.dropzone-multiple .dz-preview .dz-details {
+    margin: 0;
+    width: 140px;
+    height: 160px;
+}
+
+.dropzone.dropzone-multiple .dz-preview .dz-details .dz-filename {
+    display: none;
+}
+
+.dropzone.dropzone-multiple .dz-preview .dz-details .dz-size {
+    display: none;
+}
+
+.dropzone.dropzone-multiple .dz-preview .dz-progress {
+    top: auto;
+    bottom: 40px;
+}
+
+.dropzone.dropzone-multiple .dz-preview a.dz-remove {
+    margin-top: 6px;
+}
