@@ -1822,10 +1822,10 @@ require.register("dropzone/lib/dropzone.js", function (exports, module) {
 });
 
 if (typeof exports == "object") {
-  module.exports = require("app/extensions/gustarus/yii2-dropzone/public/js/dropzone");
+  module.exports = require("dropzone");
 } else if (typeof define == "function" && define.amd) {
-  define([], function(){ return require("app/extensions/gustarus/yii2-dropzone/public/js/dropzone"); });
+  define([], function(){ return require("dropzone"); });
 } else {
-  this["Dropzone"] = require("app/extensions/gustarus/yii2-dropzone/public/js/dropzone");
+  this["Dropzone"] = require("dropzone");
 }
 })()
